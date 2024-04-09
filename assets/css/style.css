@@ -1,0 +1,194 @@
+.navbar-hover .nav-link:hover {
+    /* Define the styles for the hover effect */
+    /* For example, change the background color and text color */
+    background-color: #828487;
+    color: #333;
+}
+
+#carouselExampleAutoplaying {
+    height: 1000px;
+    display: flex;
+    margin: auto;
+}
+
+.footer {
+    margin-top: 0;
+    background-color: black;
+    text-align: center;
+    padding: 5px 16px;
+    color: white;
+}
+
+.navbar-nav .nav-item .nav-link.active {
+    color: rgb(242, 164, 21) !important;
+    background-color: #828487 !important;
+}
+
+/* employeeList style */
+h1 {
+    margin-left: 20px;
+}
+
+.function {
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.add {
+    background-color: lightgrey;
+    align-items: center;
+    padding: 0 15px;
+    line-height: 35px;
+    border: 1px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15), 0 6px 15px 0 rgba(0, 0, 0, 0.10);
+}
+
+.add a {
+    text-decoration: none;
+    color: black;
+}
+
+.add a:hover {
+    color: #D4AF37;
+}
+
+.add i {
+    padding-right: 2px;
+}
+
+.search i {
+    line-height: 40px;
+    position: absolute;
+    padding-left: 10px;
+}
+
+.txtb {
+    padding: 10px 10px 10px 30px;
+    text-align: center;
+}
+
+.table {
+    margin: 20px;
+}
+
+.table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+.button-row {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.edit input:hover {
+    color: #D4AF37;
+    cursor: pointer;
+}
+
+.delete i {
+    color: black;
+}
+
+.delete i:hover {
+    color: #D4AF37;
+}
+
+/* employeeInsert */
+.back {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.back a {
+    color: black;
+    text-decoration: none;
+}
+
+.back a:hover {
+    color: #D4AF37;
+}
+
+.back i {
+    padding-right: 5px;
+}
+
+.container {
+    max-width: 460px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: lightgray;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container h2 {
+    text-align: center;
+}
+
+.container form input[type="text"] {
+    width: 300px;
+    padding: 3px;
+    box-sizing: border-box;
+}
+
+.container form input[type="submit"] {
+    background-color: mediumblue;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: white;
+    padding: 5px 18px;
+    border-radius: 5px;
+}
+
+.container form .form-group label span.required {
+    color: red;
+    margin-left: 5px;
+}
+
+.btn {
+    text-align: center;
+}
+
+.btn input {
+    cursor: pointer;
+}
+
+/* login form */
+.bg-image-vertical {
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: auto 100%;
+}
+
+@media (min-width: 1025px) {
+    .h-custom-2 {
+        height: 100%;
+    }
+}
+
+/* homepage */
+.disabled {
+    pointer-events: none;
+    opacity: 0.5;
+    /* Add any other styles to visually indicate that the button is disabled */
+}
